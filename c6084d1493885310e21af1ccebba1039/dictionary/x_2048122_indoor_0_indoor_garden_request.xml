@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="734a495893885310e21af1ccebba10e7" extends="task" label="Indoor Garden Request" max_length="40" name="x_2048122_indoor_0_indoor_garden_request" type="collection">
+        <element label="Description" max_length="40" name="descriptionn" type="string"/>
+        <element label="Requester" max_length="32" name="requester" reference="sys_user" type="reference"/>
+        <element label="Preferred Date" max_length="40" name="preferred_date" type="glide_date_time"/>
+        <element label="Requested For" mandatory="true" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
+        <element choice="1" default="1" label="Service Type" mandatory="true" max_length="40" name="service_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Pruning" sequence="1" value="pruning"/>
+                <element inactive_on_update="false" label="Fertilizing" sequence="2" value="fertilizing"/>
+                <element inactive_on_update="false" label="Watering" sequence="0" value="watering"/>
+            </choice>
+        </element>
+        <element choice="1" default="javascript:ChangeModel.getDefaultTypeValue()" dynamic_default_value="d1442bd4c3c02010b1343f52c1d3aea5" label="Plant Type" max_length="40" name="plant_type" type="choice" use_dynamic_default="true">
+            <choice>
+                <element inactive_on_update="false" label="Flowering" sequence="0" value="flowering"/>
+                <element inactive_on_update="false" label="Foliage" sequence="1" value="foliage"/>
+                <element inactive_on_update="false" label="Succulent" sequence="2" value="succulent"/>
+            </choice>
+        </element>
+    </element>
+</database>

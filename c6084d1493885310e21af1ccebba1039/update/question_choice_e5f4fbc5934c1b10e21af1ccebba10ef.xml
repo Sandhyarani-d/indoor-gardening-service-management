@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>300</order>
+        <published_ref/>
+        <question display_value="What is the plant type?">590ea4cd9304d710e21af1ccebba104f</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-19 05:47:59</sys_created_on>
+        <sys_id>e5f4fbc5934c1b10e21af1ccebba10ef</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Home delivery</sys_name>
+        <sys_package display_value="Indoor Gardening Services Management" source="x_2048122_indoor_0">c6084d1493885310e21af1ccebba1039</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Indoor Gardening Services Management">c6084d1493885310e21af1ccebba1039</sys_scope>
+        <sys_update_name>question_choice_e5f4fbc5934c1b10e21af1ccebba10ef</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-19 05:54:15</sys_updated_on>
+        <text>Home delivery</text>
+        <value>home_delivery</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=e5f4fbc5934c1b10e21af1ccebba10ef"/>
+</record_update>

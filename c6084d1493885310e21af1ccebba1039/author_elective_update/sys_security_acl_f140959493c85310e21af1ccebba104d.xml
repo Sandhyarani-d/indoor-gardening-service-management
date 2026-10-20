@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition/>
+        <controlled_by_refs/>
+        <decision_type>allow</decision_type>
+        <description>Default access control on x_2048122_indoor_0_indoor_gardening_request_2</description>
+        <local_or_existing>Existing</local_or_existing>
+        <name>x_2048122_indoor_0_indoor_gardening_request_2</name>
+        <operation display_value="create">create</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-16 09:52:40</sys_created_on>
+        <sys_id>f140959493c85310e21af1ccebba104d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_2048122_indoor_0_indoor_gardening_request_2</sys_name>
+        <sys_package display_value="Indoor Gardening Services Management" source="x_2048122_indoor_0">c6084d1493885310e21af1ccebba1039</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Indoor Gardening Services Management">c6084d1493885310e21af1ccebba1039</sys_scope>
+        <sys_update_name>sys_security_acl_f140959493c85310e21af1ccebba104d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-16 09:52:40</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Indoor Gardening Services Management">c6084d1493885310e21af1ccebba1039</application>
+        <file_path/>
+        <instance_id>b832031deba987905a2dfceacad0cdb0</instance_id>
+        <instance_name>dev407060</instance_name>
+        <name>sys_security_acl_f140959493c85310e21af1ccebba104d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Default access control on x_2048122_indoor_0_indoor_gardening_request_2</description><local_or_existing>Existing</local_or_existing><name>x_2048122_indoor_0_indoor_gardening_request_2</name><operation display_value="create">create</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-16 09:52:40</sys_created_on><sys_id>f140959493c85310e21af1ccebba104d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_2048122_indoor_0_indoor_gardening_request_2</sys_name><sys_package display_value="Indoor Gardening Services Management" source="x_2048122_indoor_0">c6084d1493885310e21af1ccebba1039</sys_package><sys_policy/><sys_scope display_value="Indoor Gardening Services Management">c6084d1493885310e21af1ccebba1039</sys_scope><sys_update_name>sys_security_acl_f140959493c85310e21af1ccebba104d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-16 09:52:40</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>484364406</payload_hash>
+        <record_name>x_2048122_indoor_0_indoor_gardening_request_2</record_name>
+        <reverted_from/>
+        <source>ca084d1493885310e21af1ccebba103c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-16 09:52:41</sys_created_on>
+        <sys_id>3d40959493c85310e21af1ccebba1077</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a14420c61d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-16 09:52:41</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>f940959437c853109126454429f34276</update_guid>
+        <update_guid_history>f940959437c853109126454429f34276:484364406</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-20 08:56:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>050788167f4e4dd3accf8bf5d8e6cec1</sys_id>
+        <sys_metadata>f140959493c85310e21af1ccebba104d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_2048122_indoor_0_indoor_gardening_request_2</sys_name>
+        <sys_package display_value="Indoor Gardening Services Management" source="x_2048122_indoor_0">c6084d1493885310e21af1ccebba1039</sys_package>
+        <sys_parent display_value="">da40959493c85310e21af1ccebba10d5</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Indoor Gardening Services Management">c6084d1493885310e21af1ccebba1039</sys_scope>
+        <sys_scope_delete display_value="">41441eea727f461cb53f59926bc58c04</sys_scope_delete>
+        <sys_update_name>sys_security_acl_f140959493c85310e21af1ccebba104d</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_f140959493c85310e21af1ccebba104d">3d40959493c85310e21af1ccebba1077</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-20 08:56:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
